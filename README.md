@@ -23,11 +23,19 @@ Veja como acrescentar a sua chamada no final do documento.
 | ------ | -------- | ---------- | ----------- |
 | todo   | todo     | todo       |             |
 
-## Contribuindo com sua chamada
+## Contribuindo com sua chamada de palestra
 
 Você pode usar o editor de texto que quiser, desde que rode o
 [markdown lint](https://github.com/DavidAnson/markdownlint-cli2) no final. Se estiver usando o VS Code, tem
 [uma extensão](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) pronta.
+
+Para rodar o linter na linha de comando você precisa do Node.js instalado. Rode com:
+
+```bash
+npx --package=markdownlint-cli2 markdownlint-cli2-config .markdownlint.json "**/*.md" "#node_modules"
+```
+
+Ao abrir um PR um workflow vai verificar o linting, também.
 
 ## Licença
 

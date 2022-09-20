@@ -25,6 +25,15 @@ Veja como acrescentar a sua chamada no final do documento.
 
 ## Contribuindo com sua chamada de palestra
 
+Se você é dev e/ou conhece Git:
+
+1. Faça um fork deste repositório e clone pra sua máquina;
+1. Altere este arquivo (README.md);
+1. Crie um commit e empurre pro seu fork;
+1. Mande um pull request (PR).
+
+Se você não é dev, você pode editar direto aqui no Github, [clique aqui](https://github.com/giggio/c4p/edit/main/README.md).
+
 Você pode usar o editor de texto que quiser, desde que rode o
 [markdown lint](https://github.com/DavidAnson/markdownlint-cli2) no final. Se estiver usando o VS Code, tem
 [uma extensão](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) pronta.
